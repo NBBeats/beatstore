@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Beatmaker | Portafolio</title>
+    <style>
+        body { background-color: #121212; color: #ffffff; font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 20px; }
+        header { margin-top: 40px; }
+        .profile-img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 2px solid #1db954; margin-bottom: 15px; }
+        .bio { max-width: 600px; margin: 0 auto 40px auto; color: #b3b3b3; line-height: 1.6; font-size: 15px; }
+        .beat-card { background: #1e1e1e; padding: 20px; margin: 20px auto; width: 320px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.5); text-align: left; }
+        .beat-card h3 { margin: 0 0 10px 0; font-size: 18px; color: #fff; }
+        audio { width: 100%; margin-top: 10px; }
+        footer { margin-top: 50px; color: #777; font-size: 13px; }
+    </style>
+</head>
+<body>
+
+    <!-- SECCIÓN DE BIOGRAFÍA Y FOTO -->
+    <header>
+        <!-- Cambia 'tu-foto.jpg' por el nombre de la imagen que subas a tu repositorio -->
+        <img src="tu-foto.jpg" alt="Foto de perfil" class="profile-img">
+        <h1>Tu Nombre / NB Beats</h1>
+        <p class="bio">
+            Beatmaker y productor musical residente en Argentina. Enfocado en sonidos modernos, trap y reggaetón. 
+            Acá vas a encontrar instrumentales de alta calidad listas para explotar tu próximo proyecto. ¡Escucha y ponte en contacto!
+        </p>
+    </header>
+
+    <hr style="border: 0; border-top: 1px solid #333; width: 80%; margin: 30px auto;">
+
+    <!-- SECCIÓN DE BEATS -->
+    <h2>Catálogo de Beats</h2>
+
+    <div class="beat-card">
+        <h3>🔥 Beat 1 - Estilo Trap Oscuro</h3>
+        <p style="font-size: 13px; color: #888; margin: 0 0 10px 0;">BPM: 140 | Key: G min</p>
+        <audio controls>
+            <!-- Reemplaza 'beat1.mp3' con el archivo de audio que subas -->
+            <source src="beat1.mp3" type="audio/mp3">
+            Tu navegador no soporta el reproductor de audio.
+        </audio>
+    </div>
+
+    <div class="beat-card">
+        <h3>⚡ Beat 2 - Reggaetón / Perreo</h3>
+        <p style="font-size: 13px; color: #888; margin: 0 0 10px 0;">BPM: 95 | Key: A min</p>
+        <audio controls>
+            <source src="beat2.mp3" type="audio/mp3">
+            Tu navegador no soporta el reproductor de audio.
+        </audio>
+    </div>
+
+    <footer>
+        <p>Contacto / Licencias: <a>tuemail@example.com</a> | Instagram: @tu_usuario</p>
+    </footer>
+
+</body>
+</html>
